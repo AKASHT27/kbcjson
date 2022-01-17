@@ -17,7 +17,7 @@ let data;
 let prize =0;
 let width=0;
 
-fetch('kbc-ques.json')
+fetch('kbc.json')
 .then(data=>{
    return data.json();
 })
